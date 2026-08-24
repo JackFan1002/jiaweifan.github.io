@@ -305,6 +305,45 @@
       white-space: nowrap;
     }
 
+    .references-list {
+      margin-top: 12px;
+    }
+    
+    .reference-item {
+      padding: 20px 0;
+      border-top: 1px solid var(--line);
+    }
+    
+    .reference-item:last-child {
+      border-bottom: 1px solid var(--line);
+    }
+    
+    .reference-name {
+      font-family: var(--serif);
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.35;
+    }
+    
+    .reference-affiliation {
+      margin-top: 5px;
+      color: var(--soft-text);
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    
+    .reference-links {
+      display: flex;
+      gap: 18px;
+      margin-top: 10px;
+    }
+    
+    .reference-links a {
+      color: var(--accent);
+      font-size: 14px;
+      font-weight: 400;
+    }
+
     @media (max-width: 820px) {
       .layout {
         flex-direction: column;
@@ -397,6 +436,7 @@
         <a href="#about">About</a>
         <a href="#research">Research</a>
         <a href="#education">Education</a>
+        <a href="#references">References</a>
         <a href="#contact">Contact</a>
       </nav>
 
@@ -506,6 +546,93 @@
       
             <div class="education-year">2015</div>
           </div>
+        </div>
+      </section>
+
+
+      <section id="references">
+        <div class="section-title">References</div>
+      
+        <div class="references-list">
+          
+          <article class="reference-item">
+            <div class="reference-name">
+              Professor Blake LeBaron
+            </div>
+      
+            <div class="reference-affiliation">
+              Abram L. and Thelma Sachar Professor of International Economics, Emeritus<br>
+              School of Business and Economics<br>
+              Brandeis University
+            </div>
+      
+            <div class="reference-links">
+              <a
+                href="http://people.brandeis.edu/~blebaron/"
+                target="_blank"
+                rel="noopener"
+              >
+                Website
+              </a>
+      
+              <a href="mailto:blebaron@brandeis.edu">
+                Email
+              </a>
+            </div>
+          </article>
+      
+          <article class="reference-item">
+            <div class="reference-name">
+              Professor Sida Li
+            </div>
+      
+            <div class="reference-affiliation">
+              Assistant Professor of Finance<br>
+              School of Business and Economics<br>
+              Brandeis University
+            </div>
+      
+            <div class="reference-links">
+              <a
+                href="https://sites.google.com/view/sida"
+                target="_blank"
+                rel="noopener"
+              >
+                Website
+              </a>
+      
+              <a href="mailto:sidali@brandeis.edu">
+                Email
+              </a>
+            </div>
+          </article>
+
+          <article class="reference-item">
+            <div class="reference-name">
+              Professor Anna Scherbina
+            </div>
+      
+            <div class="reference-affiliation">
+              Janet L. Yellen Distinguished Professor of Business<br>
+              School of Business and Economics<br>
+              Brandeis University
+            </div>
+      
+            <div class="reference-links">
+              <a
+                href="https://sites.google.com/brandeis.edu/annascherbina?usp=sharing"
+                target="_blank"
+                rel="noopener"
+              >
+                Website
+              </a>
+      
+              <a href="mailto:ascherbina@brandeis.edu">
+                Email
+              </a>
+            </div>
+          </article>
+          
         </div>
       </section>
 
