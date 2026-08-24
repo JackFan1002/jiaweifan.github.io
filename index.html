@@ -16,7 +16,6 @@
       font-family: Arial, sans-serif;
       line-height: 1.7;
     }
-
     h1 {
       font-size: 42px;
       margin-bottom: 8px;
@@ -34,13 +33,29 @@
     section {
       margin-top: 60px;
     }
+
+    .headshot {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+      border: 3px solid #e4e7ea;
+    }
   </style>
 </head>
 
 <body>
   <header>
+    <img
+      class="headshot"
+      src="assets/headshot.jpg"
+      alt="Professional portrait of Jiawei Fan"
+    >
+    
     <h1>Jiawei Fan</h1>
-    <p>Your position and institution</p>
+    <p>PhD Candidate in Finance</p>
+    <p>Brandeis University</p>
 
     <nav>
       <a href="#about">About</a>
